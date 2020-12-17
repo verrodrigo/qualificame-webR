@@ -1,0 +1,447 @@
+:root {
+  /*COLORES REDES SOCIALES*/
+  --facebook: #3b5999;
+  --instagram: #e4405f;
+  --twitter: #00acee;
+  --youtube: #c4302b;
+  --whatsapp: #25d366;
+}
+
+.igColor:hover {
+  background-color: var(--instagram);
+}
+
+.fbColor:hover {
+  background-color: var(--facebook);
+}
+
+.waColor:hover {
+  background-color: var(--whatsapp);
+}
+
+.twColor:hover {
+  background-color: var(--twitter);
+}
+
+.contenedorVision {
+  width: 25%;
+}
+
+.contenedorVision h2 {
+  text-align: center;
+}
+
+.contenedorVision p {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(60, 60, 60);
+}
+
+#test1 h4, h3, h5 {
+  margin-top: 25px;
+  text-align: center;
+  animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  /* Firefox */
+  -webkit-animation: fadein 4s;
+  /* Safari and Chrome */
+  -o-animation: fadein 4s;
+  /* Opera */
+}
+
+#test img {
+  animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  /* Firefox */
+  -webkit-animation: fadein 5s;
+  /* Safari and Chrome */
+  -o-animation: fadein 5s;
+  /* Opera */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.backAbout {
+  height: 100%;
+  width: 100vw;
+  background: url(../images/NosotrosIndico.jpg) no-repeat center;
+  background-size: cover;
+  background-position: left top;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 120px 0 0 0;
+}
+
+.logo-indico-about img {
+  width: 30%;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 100;
+}
+
+.logoOculto {
+  display: none;
+  transition: all 350ms;
+}
+
+.mod-img-mobile img {
+  width: 25%
+}
+
+.rowAbout {
+  height: 50%;
+  width: 50%;
+}
+
+/*SECCION 1, PRINCIPAL PRESENTACION DE INDICO*/
+@media only screen and (max-width: 740px) {
+  .text-content img {
+    width: 200px;
+  }
+  /*MODIFICACION PARA EL SLIDER ABOUT, VISTA MOVIL*/
+  .contenedorVision {
+    width: 100%;
+  }
+
+  .Modern-Slider .text-content-about {
+    top: 20%;
+  }
+
+  .Modern-Slider .text-content-horus {
+    top: 60%;
+  }
+
+  /*FIN MODIFICACION PARA EL SLIDER ABOUT, VISTA MOVIL*/
+  .mod-img-mobile img {
+    width: 45%
+  }
+
+  .img-abajo h2 {
+    margin-bottom: 100px;
+  }
+
+  .img-arriba h2 {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 740px) {
+  .main-banner {
+    min-height: 200vh;
+  }
+
+  .text-content img {
+    max-width: 100px;
+  }
+}
+
+.text-content img {
+  max-width: 500px;
+}
+
+.main-banner {
+  height: 100%;
+  width: 100vw;
+  background: url(../images/ContactanosIndicoImagen.jpg) no-repeat center;
+  background-size: cover;
+  background-position: left top;
+  padding: 120px 0 0 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.section {
+  background: url(../images/ContactanosIndicoImagen.jpg) no-repeat center;
+  background-size: cover;
+  background-position: left top;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.sectionCred {
+  background: url(../images/PqElegirnos.jpg) no-repeat center;
+  background-size: cover;
+  background-position: left top;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.tm-intro {
+  height: 100%;
+  width: 100%;
+}
+
+#tm-section-1 {
+  padding-bottom: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tm-section-1 img {
+  height: 45%;
+  width: 45%;
+}
+
+@media (max-width: 767px) {
+  #tm-section-1 img {
+    height: 70%;
+    width: 70%;
+  }
+
+  #tm-section-1 h1, h2, h3, h4, h5 {
+    text-align: left;
+  }
+}
+
+.tm-intro-link {
+  border: 2px solid #006699;
+  border-radius: 50px;
+  color: #006699;
+  display: inline-block;
+  padding: 15px 60px;
+}
+
+a, button {
+  transition: all 0.3s ease;
+}
+
+.tm-logo {
+  margin-bottom: 30px;
+}
+
+.navbar-nav .nav-link, .tm-intro-link {
+  font-size: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+/*FIN SECCION 1*/
+/*SECCION 2, NOSOTROS (BREVE)*/
+/*FIN SECCION 2*/
+/*SECCION 3, NUESTROS PROYECTOS (SLIDER)*/
+.gradientQualificame {
+  /*qualificame*/
+  background: linear-gradient(112.19deg, rgba(220, 44, 14, .8) 13.01%, rgba(229, 96, 11, .8) 93.29%);
+}
+
+.gradientIndico {
+  background: linear-gradient(-90deg, #40a1de, #224595);
+}
+
+.gradientHorus {
+  background: linear-gradient(111.42deg, #00145f, #394883);
+}
+
+.gradientHorus2 {
+  background: linear-gradient(90deg, #1d3075, #394883);
+}
+
+.gradientGrisAzul {
+  background: linear-gradient(90deg, #b5b7b9, #40a1de);
+}
+
+.gradientGrisAzul2 {
+  background: linear-gradient(-90deg, #dbdddf, #9fafbf);
+}
+
+.gradientGrisAzul3 {
+  background: linear-gradient(180deg, #9fafbf, #40a1de);
+}
+
+.gradientGrisAzul4 {
+  background: linear-gradient(270deg, #9b9fa2, #41a4e2);
+}
+
+.gradientGrisBlanco {
+  background: linear-gradient(270deg, #9b9fa2, #ffffff);
+}
+
+.contenedorSlider {
+  width: 100%;
+  max-width: 100%;
+  height: calc(100vh - 80px);
+  background: rgb(38, 218, 164);
+}
+
+.hero-text h2 {
+  margin-bottom: 50px;
+}
+
+.hero-text .hero {
+  position: relative;
+}
+
+.hero-text .hero .hero-slide a:hover span {
+  color: #033a71;
+}
+
+.hero .hero-slide img {
+  width: 100%;
+  max-height: 100%;
+  height: 100%;
+}
+
+.hero-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .hero-slide .header-content {
+  top: 1%;
+  width: 100%;
+  max-width: 400px;
+}
+
+.slide-content {
+  padding: 0;
+}
+
+.slick-list, .slick-track {
+  height: 100%;
+}
+
+.slick-list, .slick-track {
+  height: 100%;
+}
+
+/*FIN SECCION 3*/
+.owl-item img {
+  border-radius: 60%;
+  width: 50%;
+  height: 50%;
+}
+
+/*SECCION 4, CONTACTO*/
+.tm_maps {
+  margin: 50px 0;
+  display: block;
+  overflow: hidden;
+  height: 400px;
+}
+
+.fluid-wrapper {
+  position: relative;
+  /* padding-bottom: 56.25%;  16:9 */
+  height: 0;
+}
+
+.fluid-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+/*FIN SECCION 4*/
+.tm_paracenter {
+  text-align: center;
+}
+
+/*ABOUT START*/
+.banner-about {
+  margin-top: 80px;
+}
+
+/*FIN ABOUT*/
