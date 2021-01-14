@@ -1,21 +1,3 @@
-<?php
-// SDK de Mercado Pago
-require __DIR__ .  '/vendor/autoload.php';
-
-// Agrega credenciales
-MercadoPago\SDK::setAccessToken('PROD_ACCESS_TOKEN');
-
-// Crea un objeto de preferencia
-$preference = new MercadoPago\Preference();
-
-// Crea un ítem en la preferencia
-$item = new MercadoPago\Item();
-$item->title = 'Mi producto';
-$item->quantity = 1;
-$item->unit_price = 75.56;
-$preference->items = array($item);
-$preference->save();
-?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -78,15 +60,15 @@ $preference->save();
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="../index.html" class="logo">
+            <a href="../index.php" class="logo">
               <img src="../assets/images/logoQu.png" alt="" class="" id="logoIndico-about" style="height: 80px;">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="../index.html#top" class="active">Inicio</a></li>
-              <li class="scroll-to-section"><a href="../planes/index.html">Planes</a></li>
-              <li class="scroll-to-section"><a href="../index.html#contact-us">Contacto</a></li>
+              <li class="scroll-to-section"><a href="../index.php#top" class="active">Inicio</a></li>
+              <li class="scroll-to-section"><a href="../planes/index.php">Planes</a></li>
+              <li class="scroll-to-section"><a href="../index.php#contact-us">Contacto</a></li>
 
             </ul>
             <a class='menu-trigger'>
@@ -107,12 +89,12 @@ $preference->save();
         <div class="col-lg-12 col-md-12 col-xs-12">
           <div class="left-text-content tm_paracenter mod-img-mobile">
             <div class="section-heading " style="margin-top:50px;">
-              <h2 style="color: white;">¡Es hora de introducir su negocio al programa!</h2>
+              <h2 style="color: white;">No importa donde te encuentres, monitorea 24 horas la satisfacción de tus clientes.</h2>
               <br>
             </div>
-            <img src="../assets/images/horus_safes_school.png" alt="">
+            <img src="../assets/images/qualificame_planes.png" alt="">
             <div class="section-heading " style="margin-top:50px;">
-              <h2 style="color: white;">¡Seleccione alguno de los planes que tenemos para su compañía!</h2>
+              <h2 style="color: white;">Selecciona el plan según tus necesidades y comienza hoy a medir la calidad de tu servicio</h2>
               <br>
             </div>
 
@@ -135,13 +117,9 @@ $preference->save();
                 <h4>1 kiosco por $299 / mes</h4>
               </div>
               <div class="features-icon" style="margin-bottom: 10px;">
-                  <img src="../assets/images/photograph.png" alt="" style="width:30%; margin: auto; display:block;">
+                  <img src="../assets/images/plan_1.png" alt="" style="width:30%; margin: auto; display:block;">
               </div>
-              <a href="" class="main-stroked-button">Ordenar11</a>
-              <script
-                src="https://www.mercadopago.com.mx/integrations/v1/web-payment-checkout.js"
-                data-preference-id="<?php echo $preference->id; ?>">
-              </script>
+              <a href="../checkout/shop-single.php" class="main-stroked-button">Ordenar</a>
 
             </div>
           </div>
@@ -157,9 +135,9 @@ $preference->save();
                 <h4>2 kioscos por $499 / mes</h4>
               </div>
               <div class="features-icon" style="margin-bottom: 10px;">
-                  <img src="../assets/images/credit-card.png" alt="" style="width:30%; margin: auto; display:block;">
+                  <img src="../assets/images/plan_2.png" alt="" style="width:30%; margin: auto; display:block;">
               </div>
-              <a href="" class="main-stroked-button">Ordenar</a>
+              <a href="../checkout/shop-single.php" class="main-stroked-button">Ordenar</a>
             </div>
           </div>
         </div>
@@ -175,9 +153,9 @@ $preference->save();
                 <h4>4 kioscos por $950 / mes</h4>
               </div>
               <div class="features-icon" style="margin-bottom: 10px;">
-                  <img src="../assets/images/scan.png" alt="" style="width:30%; margin: auto; display:block;">
+                  <img src="../assets/images/plan_3.png" alt="" style="width:30%; margin: auto; display:block;">
               </div>
-              <a href="" class="main-stroked-button">Ordenar</a>
+              <a href="../checkout/shop-single.php" class="main-stroked-button">Ordenar</a>
             </div>
           </div>
         </div>
@@ -192,9 +170,9 @@ $preference->save();
                 <h4>5 kioscos por $999 / mes</h4>
               </div>
               <div class="features-icon" style="margin-bottom: 10px;">
-                  <img src="../assets/images/scan.png" alt="" style="width:30%; margin: auto; display:block;">
+                  <img src="../assets/images/plan_4.png" alt="" style="width:30%; margin: auto; display:block;">
               </div>
-              <a href="" class="main-stroked-button">Ordenar</a>
+              <a href="../checkout/shop-single-corp.php" class="main-stroked-button">Ordenar</a>
             </div>
           </div>
         </div>

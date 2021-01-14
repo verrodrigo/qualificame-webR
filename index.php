@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <title>Qualificame</title>
+
+  <!--CSS-->
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/personalizadoA.css">
+  <!--<link rel="stylesheet" href="assets/css/personalizadoB.css">-->
+  <link rel="stylesheet" id="cutsomEstilos" href="">
+  <link rel="stylesheet" href="assets/css/owl-carousel.css">
+  <link rel="stylesheet" href="assets/css/lightbox.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <script type="text/javascript">
+    var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+    var condition = iOS;
+    var bandera;
+    if (condition) {
+      bandera = 1;
+      document.getElementById('cutsomEstilos').href = 'assets/css/personalizadoiOs.css';
+    } else {
+      bandera = 2;
+      document.getElementById('cutsomEstilos').href = 'assets/css/personalizadoB.css';
+    }
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <link type="image/x-icon" href="assets/images/imgIndico/iconoindicoB.ico" rel="shortcut icon" /> <!-- EL FAVICON <-->
+  </-->
+</head>
+
+<body>
+
+  <!-- ***** Preloader *****-->
+  <div id="preloader">
+    <div class="jumper">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- ***** Fin Preloader ***** -->
+
+  <!-- ***** INICIO HEADER ***** -->
+  <header class="header-area header-sticky background-header-about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="./index.php" class="logo">
+              <img src="./assets/images/logoQu.png" alt="" class="" id="logoIndico-about" style="height: 80px;">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="./index.php#top" class="active">Inicio</a></li>
+              <li class="scroll-to-section"><a href="./planes/index.php">Planes</a></li>
+              <li class="scroll-to-section"><a href="./index.php#contact-us">Contacto</a></li>
+
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** FIN HEADER ***** -->
+
+  <!-- ***** About Area Starts ***** -->
+  <section class="main-banner header-text" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <div class="left-text-content tm_paracenter">
+            <div class="section-heading ">
+              <h2>Qualificame</h2>
+            </div>
+            <br>
+            <img src="./assets/images/home_qualificame.png" alt="" style="width:45%;">
+            <div class="section-heading ">
+              <br>
+              <h4>Qualificame es tu mejor aliado para evaluar tu negocio. Es una aplicación amigable y fácil de usar, con la cual, de manera instantánea podrás conocer el grado de satisfacción de los clientes y las áreas de oportunidad que tiene tu
+                negocio con respecto al servicio.</h4>
+              <a href="#about" class="tm-intro-link mt-5">Ver más</a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ***** About Area Ends ***** -->
+  <!-- ***** SECCION DE INICIO, PRESENTACION *****
+  <div class="main-banner header-text" id="top" style="">
+    <div class="tm-intro">
+      <section id="tm-section-1">
+        <div class="tm_paracenter">
+          <a href="index.html">
+            <img src="assets/images/logoindico1.png" alt="Logo" class="tm-logo">
+          </a>
+          <h1 class="" style="padding: 0 10px;">Te brindamos las herramientas para tu negocio.</h1>
+          <br>
+          <h4 class="" style="padding: 0 10px; font-weight: 600;">Indico tiene como objetivo ayudarte a crecer y darte las herramientas necesarias para hacerlo fácilmente.</h4>
+
+          <a href="#about" class="tm-intro-link mt-5">Comenzar</a>
+        </div>
+      </section>
+    </div>
+  </div>
+   ***** FIN PRIMERA SECCION ***** -->
+
+   <!-- ***** SECCION DE PRODUCTOS Y SERVICIOS, SLIDER ***** -->
+   <section class="section1" id="about">
+     <div class="row">
+
+       <div class="Modern-Slider" id="Modern-Slider">
+              <!-- Item -->
+             <div class="item">
+               <div class="img-fill img-fill2 gradientGrisAzul">
+                 <picture>
+                   <source srcset="./assets/images/ctrlAcc1sm.png" media="(max-width: 768px)">
+                     <source srcset="./assets/images/ctrlAccesosm.png" media="(max-width: 768px) and (orientation: landscape)">
+                       <img srcset="./assets/images/slider1.png" alt="">
+                 </picture>
+
+                 <div class="text-content img-abajo">
+                   <h2 style="color: rgb(60, 60, 60); text-align: right; font-weight: 800; font-size: 2.5rem;">Conoce la satisfacción de tu cliente desde tu celular</h2>
+                </div>
+               </div>
+             </div>
+                 <!-- // Item -->
+                 <!-- Item -->
+                 <div class="item">
+                   <div class="img-fill img-fill2 gradientGrisAzul2">
+                     <picture>
+                       <source srcset="./assets/images/impresion3Dsm.png" media="(max-width: 768px)">
+                         <source srcset="./assets/images/impresion3Dsm.png" media="(max-width: 768px) and (orientation: landscape)">
+                           <img srcset="./assets/images/slider2.png" alt="">
+                         </picture>
+                         <div class="text-content img-arriba">
+                           <h2 style="color: rgb(60, 60, 60); text-align: left; font-weight: 900; font-size: 2.5rem;">Monitorea cada uno de los espacios de tu negocio</h2>
+
+                         </div>
+                       </div>
+                     </div>
+                     <!-- // Item -->
+
+                     <!-- Item -->
+                     <div class="item">
+                       <div class="img-fill img-fill2 gradientGrisAzul2">
+                         <picture>
+                           <source srcset="./assets/images/impresion3Dsm.png" media="(max-width: 768px)">
+                             <source srcset="./assets/images/impresion3Dsm.png" media="(max-width: 768px) and (orientation: landscape)">
+                               <img srcset="./assets/images/slider3.png" alt="">
+                             </picture>
+                             <div class="text-content img-arriba">
+                               <h2 style="color: white; text-align: left; font-weight: 900; font-size: 2.5rem;">Una forma rápida y sencilla para conocer de manera inmediata el nivel de tu servicio</h2>
+
+                             </div>
+                           </div>
+                         </div>
+                         <!-- // Item -->
+
+                           </div>
+                         </div>
+                       </section>
+   <!-- ***** FIN SECCION DE PRODUCTOS Y SERVICIOS ***** -->
+
+
+  <!-- ***** SECCION DEL CONTACTO, ULTIMA SECCION ***** -->
+  <section class="section" id="contact-us" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading tm_paracenter">
+            <h2 class="tm_paracenter">Contáctanos</h2>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+          <!--Contact Start -->
+          <div class="">
+            <div class="clear"></div>
+            <div class="container">
+              <div class="clear"></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="tm_maps">
+                      <div class="fluid-wrapper">
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d936.7005678033039!2d-98.75043777077154!3d20.100550758576194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1a189661960fb%3A0xd305248319a3b5b2!2sINDICO!5e0!3m2!1ses!2smx!4v1584660413825!5m2!1ses!2smx"
+                          width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-8 col-md-8 col-xs-12">
+                        <div class="contact-form">
+                          <form id="contact" action="./handling/handling.php" method="post">
+                            <div class="row">
+                              <div class="col-md-6 col-sm-12">
+                                <fieldset>
+                                  <input name="nombre" type="text" id="name" placeholder="Nombre" required="">
+                                </fieldset>
+                              </div>
+                              <div class="col-md-6 col-sm-12">
+                                <fieldset>
+                                  <input name="telefono" type="text" id="phone" placeholder="Teléfono" required="">
+                                </fieldset>
+                              </div>
+                              <div class="col-md-6 col-sm-12">
+                                <fieldset>
+                                  <input name="mail" type="email" id="email" placeholder="Email" required="">
+                                </fieldset>
+                              </div>
+                              <div class="col-md-6 col-sm-12">
+                                <fieldset>
+                                  <input name="asuntoWeb" type="text" id="subject" placeholder="Asunto">
+                                </fieldset>
+                              </div>
+                              <div class="col-lg-12">
+                                <fieldset>
+                                  <textarea name="mensaje" rows="6" id="message" placeholder="Mensaje" required=""></textarea>
+                                </fieldset>
+                              </div>
+                              <div class="col-lg-12">
+                                <fieldset>
+                                  <button type="submit" id="form-submit" class="main-button-icon gradientQualificame">Enviar mensaje<i class="fa fa-arrow-right"></i></button>
+                                </fieldset>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="left-text-content">
+                          <div class="section-heading">
+                            <h2>¡Estás a un click de obtener las mejores ofertas!</h2>
+                          </div>
+                          <ul class="contact-info">
+                            <li><img src="assets/images/ictelefono2.png" alt="">+521-771-489-33-18</li>
+                            <li><img src="assets/images/icsobre1.png" alt="">contacto@gpoindico.com</li>
+                            <li><img src="assets/images/icmundo3.png" alt="">www.gpoindico.com</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Contact End-->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** FIN SECCION DEL CONTACTO ***** -->
+
+  <!-- ***** Footer ***** -->
+  <footer class="gradientQualificame">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-xs-12">
+          <div class="left-text-content">
+            <p>Copyright &copy; 2020 Grupo Indico.
+          </div>
+        </div>
+        <div class="col-lg-6 col-xs-12">
+          <div class="right-text-content">
+            <ul class="social-icons">
+              <li>
+                <p>Visita nuestras redes</p>
+              </li>
+              <li><a target="_blank" rel="nofollow" class="fbColor" href="https://www.facebook.com/pages/category/Science--Technology---Engineering/Indico-Credencializaci%C3%B3n-101610451294718/"><i class="fa fa-facebook"></i></a></li>
+              <li><a target="_blank" rel="nofollow" href="https://api.whatsapp.com/send?phone=5217711297137&text=¡Hola!%20quiero%20obtener%20información%20acerca%20de%20sus%20productos" class="waColor"><i class="fa fa-whatsapp"></i></a></li>
+              <li><a target="_blank" rel="nofollow" href="https://www.instagram.com/indico_mx/" class="igColor"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- FIN FOOTER -->
+
+  <!-- jQuery -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="assets/js/popper.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- Plugins -->
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/scrollreveal.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/imgfix.min.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/lightbox.js"></script>
+  <script src="assets/js/isotope.js"></script>
+
+  <!-- Global custom js -->
+  <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
